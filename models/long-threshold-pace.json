@@ -1,0 +1,8 @@
+{
+	"name":"Long Threshold",
+	"code":"T",
+	"description":"",
+	"durations":[40,50,60],
+	"maxPercentageOfWeeklyDistance":0.15,
+	"recovery":"oneMinutePerFiveMinute"
+}

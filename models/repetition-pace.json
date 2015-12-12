@@ -1,0 +1,8 @@
+{
+	"name":"Repetition",
+	"code":"R",
+	"description":"",
+	"distances":[200,300,400],
+	"maxPercentageOfWeeklyDistance":0.05,
+	"recovery":"untilFresh"	
+}

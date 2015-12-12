@@ -1,0 +1,8 @@
+{
+	"name":"Interval",
+	"code":"I",
+	"description":"",
+	"durations":[3,4,5],
+	"maxPercentageOfWeeklyDistance":0.08,
+	"recovery":"equalToOrLessThan"	
+}

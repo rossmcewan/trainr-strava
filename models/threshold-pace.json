@@ -1,0 +1,8 @@
+{
+	"name":"Threshold",
+	"code":"T",
+	"description":"",
+	"durations":[10,20],
+	"maxPercentageOfWeeklyDistance":0.1,
+	"recovery":"oneMinutePerFiveMinute"
+}

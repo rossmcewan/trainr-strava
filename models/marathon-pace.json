@@ -1,0 +1,8 @@
+{
+	"name":"Marathon",
+	"code":"M",
+	"description":"",
+	"durations":[45,60,75,90],
+	"maxPercentageOfWeeklyDistance":0.15,
+	"recovery":"oneMinutePerFiveMinute"	
+}

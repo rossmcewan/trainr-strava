@@ -1,0 +1,10 @@
+{
+	"name":"Cruise",
+	"code":"C",
+	"description":"",
+	"duration":{
+		"min":3,
+		"max":15
+	},
+	"recovery":"1minutePer5minute"
+}
