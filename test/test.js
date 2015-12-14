@@ -231,6 +231,7 @@ describe('trainr-strava node module', function () {
         var fs = require('fs');
         var fileName = programAthlete.name.replace(' ', '') + '.program';
         TrainrStrava.generator.createProgram(programAthlete, { rules: require('../models/21and42.json') }, function (error, result) {
+          fs.writeFileSync(fileName+'.json', JSON.stringify(result));
           fs.writeFileSync(fileName, programAthlete.name);
           fs.appendFileSync(fileName, '\n');
           fs.appendFileSync(fileName, programAthlete.runner.tests[0].VDOT);
