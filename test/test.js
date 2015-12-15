@@ -208,9 +208,9 @@ describe('trainr-strava node module', function () {
               "marathonPace": periodSummary.marathon / 60,
               "thresholdPace": periodSummary.tempo / 60
             },
-            "maxWeeklyDistance": periodSummary.averageDistancePerWeek * 1.1 * 1000,
+            "maxWeeklyDistance": 80000,//periodSummary.averageDistancePerWeek * 1.5 * 1000,
             "shortestEasyRun": 5000,
-            "longestEasyRun": periodSummary.averageDistancePerRun * 1.1 * 1000,
+            "longestEasyRun": 10000,// periodSummary.averageDistancePerRun * 1.5 * 1000,
             "qualityDays": {
               "Q1": 2,
               "Q2": 4,
@@ -221,7 +221,7 @@ describe('trainr-strava node module', function () {
               "1": true,
               "2": true,
               "3": true,
-              "4": true,
+              "4": false,
               "5": true,
               "6": true
             }

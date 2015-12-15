@@ -4,48 +4,7 @@
 	"maximum":42000,
 	"description":"",
 	"phases":[
-		{
-			"name":"Phase 1a",
-			"description":"",
-			"qualitySessions":[],
-			"duration":3,
-			"percentageOfMaxPerWeek":[0.6,0.7,0.8],
-			"qualitySessions":[
-				{
-					"name":"Q3",
-					"description":"Maintenance",
-					"shouldWarmup":false,
-					"shouldCooldown":false,
-					"focus":[
-						{
-							"name":"L",
-							"weighting":1.0
-						}
-					]
-				}
-			]
-		},
-		{
-			"name":"Phase 1b",
-			"description":"",
-			"qualitySessions":[],
-			"duration":3,
-			"percentageOfMaxPerWeek":[0.8,0.9,0.6],
-			"qualitySessions":[
-				{
-					"name":"Q3",
-					"description":"Maintenance",
-					"shouldWarmup":false,
-					"shouldCooldown":false,
-					"focus":[
-						{
-							"name":"L",
-							"weighting":1.0
-						}
-					]
-				}
-			]
-		},
+		
 		{
 			"name":"Phase 2",
 			"description":"",
